@@ -15,10 +15,10 @@ message GetSizeResponse {
     double size = 1;
 }
 
-message GetHighScoreRequest {
-
+message SetScoreRequest {
+    double score = 1;
 }
 
-message GetHighScoreResponse {
-    double high_score = 1;
+message SetScoreResponse {
+    bool set = 1;
 }
